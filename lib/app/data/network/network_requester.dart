@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:starter/app/data/values/constants.dart';
-import 'package:starter/app/data/values/env.dart';
-import 'package:starter/utils/helper/exception_handler.dart';
+import 'package:sorting_visualizer/app/data/values/constants.dart';
+import 'package:sorting_visualizer/app/data/values/env.dart';
+import 'package:sorting_visualizer/utils/helper/exception_handler.dart';
 
 class NetworkRequester {
   late Dio _dio;

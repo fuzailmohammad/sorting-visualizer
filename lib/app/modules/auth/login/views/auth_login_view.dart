@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:starter/app/data/values/strings.dart';
-import 'package:starter/app/modules/auth/login/controllers/auth_login_controller.dart';
-import 'package:starter/widgets/buttons/primary_filled_button.dart';
-import 'package:starter/widgets/text_field/custom_text_field.dart';
+import 'package:sorting_visualizer/app/data/values/strings.dart';
+import 'package:sorting_visualizer/app/modules/auth/login/controllers/auth_login_controller.dart';
+import 'package:sorting_visualizer/widgets/buttons/primary_filled_button.dart';
+import 'package:sorting_visualizer/widgets/text_field/custom_text_field.dart';
 
 class AuthLoginView extends GetView<AuthLoginController> {
   @override

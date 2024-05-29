@@ -1,4 +1,4 @@
-import 'package:starter/app/data/models/dto/user.dart';
+import 'package:sorting_visualizer/app/data/models/dto/user.dart';
 
 class UserResponse {
   late User? data;

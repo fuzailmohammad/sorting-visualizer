@@ -1,5 +1,5 @@
-import 'package:starter/app/data/repository/config_repository.dart';
-import 'package:starter/base/base_controller.dart';
+import 'package:sorting_visualizer/app/data/repository/config_repository.dart';
+import 'package:sorting_visualizer/base/base_controller.dart';
 
 class AppController extends BaseController<ConfigRepository> {
   @override

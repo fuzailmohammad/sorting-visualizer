@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:starter/app/app_controller.dart';
-import 'package:starter/app/data/network/network_requester.dart';
-import 'package:starter/app/data/repository/config_repository.dart';
-import 'package:starter/app/data/repository/user_repository.dart';
+import 'package:sorting_visualizer/app/app_controller.dart';
+import 'package:sorting_visualizer/app/data/network/network_requester.dart';
+import 'package:sorting_visualizer/app/data/repository/config_repository.dart';
+import 'package:sorting_visualizer/app/data/repository/user_repository.dart';
 
 class AppBinding extends Bindings {
   @override

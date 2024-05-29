@@ -1,4 +1,4 @@
-import 'package:starter/utils/helper/exception_handler.dart';
+import 'package:sorting_visualizer/utils/helper/exception_handler.dart';
 
 class RepoResponse<T> {
   final APIException? error;

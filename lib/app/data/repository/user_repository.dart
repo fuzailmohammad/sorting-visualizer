@@ -1,10 +1,10 @@
-import 'package:starter/app/data/models/dto/response.dart';
-import 'package:starter/app/data/models/dto/user.dart';
-import 'package:starter/app/data/models/request/auth_request.dart';
-import 'package:starter/app/data/models/response/user_response.dart';
-import 'package:starter/app/data/values/urls.dart';
-import 'package:starter/base/base_repository.dart';
-import 'package:starter/utils/helper/exception_handler.dart';
+import 'package:sorting_visualizer/app/data/models/dto/response.dart';
+import 'package:sorting_visualizer/app/data/models/dto/user.dart';
+import 'package:sorting_visualizer/app/data/models/request/auth_request.dart';
+import 'package:sorting_visualizer/app/data/models/response/user_response.dart';
+import 'package:sorting_visualizer/app/data/values/urls.dart';
+import 'package:sorting_visualizer/base/base_repository.dart';
+import 'package:sorting_visualizer/utils/helper/exception_handler.dart';
 
 class UserRepository extends BaseRepository {
   Future<RepoResponse<bool>> sendOTP(SendOTPRequest data) async {

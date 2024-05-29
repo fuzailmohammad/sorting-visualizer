@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:starter/app/data/models/dto/response.dart';
-import 'package:starter/app/data/values/strings.dart';
-import 'package:starter/app/theme/app_colors.dart';
-import 'package:starter/app/theme/styles.dart';
-import 'package:starter/widgets/buttons/primary_filled_button.dart';
+import 'package:sorting_visualizer/app/data/models/dto/response.dart';
+import 'package:sorting_visualizer/app/data/values/strings.dart';
+import 'package:sorting_visualizer/app/theme/app_colors.dart';
+import 'package:sorting_visualizer/app/theme/styles.dart';
+import 'package:sorting_visualizer/widgets/buttons/primary_filled_button.dart';
 
 class ShimmerWidget<D> extends StatelessWidget {
   final Widget? error;
