@@ -109,7 +109,7 @@ class Bar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Determine the maximum possible width
-    final maxWidth = 800.0;
+    const maxWidth = 800.0;
 
     // Calculate the width percentage relative to the maximum width
     final widthPercentage = width / maxWidth;
@@ -122,7 +122,7 @@ class Bar extends StatelessWidget {
             height: 20,
             width: double.infinity,
             decoration: BoxDecoration(
-              color:  Colors.grey[300],
+              color:  Colors.grey[200],
               borderRadius: BorderRadius.circular(4),
             ),
           ),
@@ -136,7 +136,7 @@ class Bar extends StatelessWidget {
             child: Center(
               child: Text(
                 width.toString(),
-                style: TextStyle(color: Colors.white),
+                style: const TextStyle(color: Colors.white),
               ),
             ),
           ),
@@ -153,7 +153,7 @@ class CustomDropdown<T> extends StatelessWidget {
   final String label;
   final ValueChanged<T?> onChanged;
 
-  const CustomDropdown({
+  const CustomDropdown({super.key,
     required this.items,
     required this.selectedItem,
     required this.label,

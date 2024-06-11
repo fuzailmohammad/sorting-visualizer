@@ -169,8 +169,6 @@ class HomeController extends GetxController {
     isCheckingIndex.value = i; // Update isCheckingIndex after each comparison
   }
 
-
-
   Future<void> insertionSort() async {
   int n = array.length;
     int delay = _getDelay();
